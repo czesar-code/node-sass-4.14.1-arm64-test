@@ -246,7 +246,7 @@ function getBinaryUrl() {
              (pkg.nodeSassConfig && pkg.nodeSassConfig.binarySite) ||
              'https://github.com/sass/node-sass/releases/download';
 
-  return [site, 'v' + pkg.version, getBinaryName()].join('/');
+  return "https://github.com/sass/node-sass/releases/download/v4.14.1/darwin-x64-83_binding.node";
 }
 
 /**
